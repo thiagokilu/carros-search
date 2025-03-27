@@ -1,0 +1,361 @@
+{
+  "carros": [
+    {
+      "id": 1,
+      "modelo": "Civic",
+      "marca": "Honda",
+      "ano": 2020,
+      "valor": 120000
+    },
+    {
+      "id": 2,
+      "modelo": "Corolla",
+      "marca": "Toyota",
+      "ano": 2018,
+      "valor": 110000
+    },
+    {
+      "id": 3,
+      "modelo": "Onix",
+      "marca": "Chevrolet",
+      "ano": 2022,
+      "valor": 80000
+    },
+    {
+      "id": 4,
+      "modelo": "Fiesta",
+      "marca": "Ford",
+      "ano": 2015,
+      "valor": 45000
+    },
+    {
+      "id": 5,
+      "modelo": "Gol",
+      "marca": "Volkswagen",
+      "ano": 2019,
+      "valor": 60000
+    },
+    {
+      "id": 6,
+      "modelo": "308",
+      "marca": "Peugeot",
+      "ano": 2017,
+      "valor": 75000
+    },
+    {
+      "id": 7,
+      "modelo": "A3",
+      "marca": "Audi",
+      "ano": 2021,
+      "valor": 180000
+    },
+    {
+      "id": 8,
+      "modelo": "Captur",
+      "marca": "Renault",
+      "ano": 2019,
+      "valor": 85000
+    },
+    {
+      "id": 9,
+      "modelo": "Kicks",
+      "marca": "Nissan",
+      "ano": 2020,
+      "valor": 90000
+    },
+    {
+      "id": 10,
+      "modelo": "208",
+      "marca": "Peugeot",
+      "ano": 2022,
+      "valor": 95000
+    },
+    {
+      "id": 11,
+      "modelo": "Duster",
+      "marca": "Renault",
+      "ano": 2018,
+      "valor": 70000
+    },
+    {
+      "id": 12,
+      "modelo": "Q3",
+      "marca": "Audi",
+      "ano": 2020,
+      "valor": 200000
+    },
+    {
+      "id": 13,
+      "modelo": "March",
+      "marca": "Nissan",
+      "ano": 2016,
+      "valor": 40000
+    },
+    {
+      "id": 14,
+      "modelo": "CLA",
+      "marca": "Mercedes-Benz",
+      "ano": 2019,
+      "valor": 220000
+    },
+    {
+      "id": 15,
+      "modelo": "Tiggo",
+      "marca": "Caoa Chery",
+      "ano": 2021,
+      "valor": 85000
+    },
+    {
+      "id": 16,
+      "modelo": "Kwid",
+      "marca": "Renault",
+      "ano": 2020,
+      "valor": 50000
+    },
+    {
+      "id": 17,
+      "modelo": "Uno",
+      "marca": "Fiat",
+      "ano": 2017,
+      "valor": 35000
+    },
+    {
+      "id": 18,
+      "modelo": "Cerato",
+      "marca": "Kia",
+      "ano": 2019,
+      "valor": 80000
+    },
+    {
+      "id": 19,
+      "modelo": "Logan",
+      "marca": "Renault",
+      "ano": 2018,
+      "valor": 45000
+    },
+    {
+      "id": 20,
+      "modelo": "320i",
+      "marca": "BMW",
+      "ano": 2020,
+      "valor": 250000
+    },
+    {
+      "id": 21,
+      "modelo": "Mobi",
+      "marca": "Fiat",
+      "ano": 2021,
+      "valor": 55000
+    },
+    {
+      "id": 22,
+      "modelo": "Soul",
+      "marca": "Kia",
+      "ano": 2020,
+      "valor": 85000
+    },
+    {
+      "id": 23,
+      "modelo": "Compass",
+      "marca": "Jeep",
+      "ano": 2022,
+      "valor": 170000
+    },
+    {
+      "id": 24,
+      "modelo": "Sandero",
+      "marca": "Renault",
+      "ano": 2019,
+      "valor": 60000
+    },
+    {
+      "id": 25,
+      "modelo": "Tiggo 5x",
+      "marca": "Caoa Chery",
+      "ano": 2022,
+      "valor": 100000
+    },
+    {
+      "id": 26,
+      "modelo": "Classe A",
+      "marca": "Mercedes-Benz",
+      "ano": 2021,
+      "valor": 190000
+    },
+    {
+      "id": 27,
+      "modelo": "Palio",
+      "marca": "Fiat",
+      "ano": 2016,
+      "valor": 30000
+    },
+    {
+      "id": 28,
+      "modelo": "Seltos",
+      "marca": "Kia",
+      "ano": 2021,
+      "valor": 110000
+    },
+    {
+      "id": 29,
+      "modelo": "Renegade",
+      "marca": "Jeep",
+      "ano": 2020,
+      "valor": 120000
+    },
+    {
+      "id": 30,
+      "modelo": "Sportage",
+      "marca": "Kia",
+      "ano": 2019,
+      "valor": 95000
+    },
+    {
+      "id": 31,
+      "modelo": "Serie 3",
+      "marca": "BMW",
+      "ano": 2018,
+      "valor": 180000
+    },
+    {
+      "id": 32,
+      "modelo": "2008",
+      "marca": "Peugeot",
+      "ano": 2022,
+      "valor": 105000
+    },
+    {
+      "id": 33,
+      "modelo": "Tiguan",
+      "marca": "Volkswagen",
+      "ano": 2020,
+      "valor": 140000
+    },
+    {
+      "id": 34,
+      "modelo": "X1",
+      "marca": "BMW",
+      "ano": 2019,
+      "valor": 160000
+    },
+    {
+      "id": 35,
+      "modelo": "Punto",
+      "marca": "Fiat",
+      "ano": 2017,
+      "valor": 40000
+    },
+    {
+      "id": 36,
+      "modelo": "Doblo",
+      "marca": "Fiat",
+      "ano": 2018,
+      "valor": 65000
+    },
+    {
+      "id": 37,
+      "modelo": "Frontier",
+      "marca": "Nissan",
+      "ano": 2021,
+      "valor": 180000
+    },
+    {
+      "id": 38,
+      "modelo": "Stepway",
+      "marca": "Renault",
+      "ano": 2020,
+      "valor": 75000
+    },
+    {
+      "id": 39,
+      "modelo": "Tucson",
+      "marca": "Hyundai",
+      "ano": 2019,
+      "valor": 100000
+    },
+    {
+      "id": 40,
+      "modelo": "EcoSport",
+      "marca": "Ford",
+      "ano": 2018,
+      "valor": 70000
+    },
+    {
+      "id": 41,
+      "modelo": "Jeep Commander",
+      "marca": "Jeep",
+      "ano": 2022,
+      "valor": 230000
+    },
+    {
+      "id": 42,
+      "modelo": "C3",
+      "marca": "Citroën",
+      "ano": 2019,
+      "valor": 60000
+    },
+    {
+      "id": 43,
+      "modelo": "Arrizo 5",
+      "marca": "Caoa Chery",
+      "ano": 2020,
+      "valor": 80000
+    },
+    {
+      "id": 44,
+      "modelo": "C4 Cactus",
+      "marca": "Citroën",
+      "ano": 2018,
+      "valor": 70000
+    },
+    {
+      "id": 45,
+      "modelo": "SX4",
+      "marca": "Suzuki",
+      "ano": 2017,
+      "valor": 55000
+    },
+    {
+      "id": 46,
+      "modelo": "ASX",
+      "marca": "Mitsubishi",
+      "ano": 2019,
+      "valor": 90000
+    },
+    {
+      "id": 47,
+      "modelo": "Vitara",
+      "marca": "Suzuki",
+      "ano": 2021,
+      "valor": 100000
+    },
+    {
+      "id": 48,
+      "modelo": "L200",
+      "marca": "Mitsubishi",
+      "ano": 2020,
+      "valor": 160000
+    },
+    {
+      "id": 49,
+      "modelo": "Virtus",
+      "marca": "Volkswagen",
+      "ano": 2022,
+      "valor": 95000
+    },
+    {
+      "id": 50,
+      "modelo": "HR-V",
+      "marca": "Honda",
+      "ano": 2021,
+      "valor": 130000
+    },
+    {
+      "id": "c493",
+      "modelo": "La Ferrari",
+      "marca": "Ferrari",
+      "ano": "2024",
+      "valor": 38000000
+    }
+  ]
+}
