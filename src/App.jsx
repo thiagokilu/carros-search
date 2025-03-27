@@ -14,7 +14,7 @@ function App() {
 	const [carros, setCarros] = useState([]);
 
 	useEffect(() => {
-		fetch("https://github.com/thiagokilu/carros-search")
+		fetch("https://my-json-server.typicode.com/thiagokilu/carros-search/carros")
 			.then((response) => response.json())
 			.then((data) => {
 				console.log(data); // Exibe os dados no console
@@ -29,13 +29,16 @@ function App() {
 			valor: Number.parseFloat(carro.valor), // Converte o valor para número
 		};
 
-		fetch("https://github.com/thiagokilu/carros-search", {
-			method: "POST",
-			headers: {
-				"Content-Type": "application/json",
+		fetch(
+			"https://my-json-server.typicode.com/thiagokilu/carros-search/carros",
+			{
+				method: "POST",
+				headers: {
+					"Content-Type": "application/json",
+				},
+				body: JSON.stringify(carroFormatado),
 			},
-			body: JSON.stringify(carroFormatado),
-		})
+		)
 			.then((response) => response.json())
 			.then((novoCarro) => {
 				setCarros((prevCarros) => [...prevCarros, novoCarro]); // Atualiza o estado com o novo carro
