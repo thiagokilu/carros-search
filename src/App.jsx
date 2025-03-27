@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import "./App.css";
 import Modal from "./components/modal";
+import { ToastContainer, toast } from "react-toastify";
 import { CirclePlus } from "lucide-react";
 
 function App() {
@@ -42,6 +43,15 @@ function App() {
 			.then((response) => response.json())
 			.then((novoCarro) => {
 				setCarros((prevCarros) => [...prevCarros, novoCarro]); // Atualiza o estado com o novo carro
+				toast.success("Veiculo cadastrado com successo!", {
+					position: "bottom-right",
+					autoClose: 3000, // Tempo em ms
+					hideProgressBar: false,
+					closeOnClick: true,
+					pauseOnHover: true,
+					draggable: true,
+					theme: "colored",
+				});
 			})
 			.catch((error) => console.error("Erro ao adicionar carro:", error));
 	};
@@ -138,6 +148,8 @@ function App() {
 				setModal={() => setModal(!modal)}
 				onSubmitData={addCarro}
 			/>
+
+			<ToastContainer />
 		</div>
 	);
 }
